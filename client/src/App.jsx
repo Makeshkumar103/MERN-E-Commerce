@@ -16,6 +16,7 @@ import ShoppingAccount from './pages/shopping-view/account'
 import ShoppingCheckout from './pages/shopping-view/checkout'
 import ShoppingListing from './pages/shopping-view/listing'
 import CheckAuth from './components/common/check-auth'
+import UnauthPage from './pages/unauth-page'
 
 function App() {
 
@@ -56,6 +57,7 @@ function App() {
             <Route path='checkout' element={<ShoppingCheckout />}/>
           </Route>
           <Route path='*' element={<NotFound />}></Route>
+          <Route path='/unauthpage' element={<UnauthPage />} />
         </Routes>
 
     </div>

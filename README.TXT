@@ -24,6 +24,13 @@ try:
 npm install tailwindcss @tailwindcss/vite
 then
 npm install -D @types/node
+npx shadcn@latest init
+33 tailwind setup
+43 
+
+ffc - to create function
+
+time 1.21
+npx shadcn@latest add input select label textarea
 
 
-43
